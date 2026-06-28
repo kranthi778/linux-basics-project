@@ -12,6 +12,10 @@
 ### Explanation :
          This displays the username of the currently logged-in user
 
+### screenshots :
+
+  ![Alt text](screenshots/whoami.png)
+
 
 ## 2. id 
 
