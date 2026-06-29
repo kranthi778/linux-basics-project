@@ -654,3 +654,209 @@ In this part I learned how to:
 - Display memory usage using the `free -h` command
 
 I learned about the Linux kernel and system information commands like `who` `users` `uname` `cat /proc/version` `lscpu` and `free -h`.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# Part 4 – File Management
+
+## 1. Copy Files
+
+### Command
+
+```bash
+
+cp file1.txt file2.txt
+
+```
+
+### Description
+
+I use `cp` to copy `file1.txt` to a file called `file2.txt`. This way I have a duplicate of `file1.txt` with a name.
+
+### Screenshot
+
+![Alt text](screenshots/cp.png)
+
+## 2. Move or Rename Files
+
+### Command
+
+```bash
+
+mv file2.txt newfile.txt
+
+```
+
+### Description
+
+The `mv` command helps me move or rename files. For example I can rename `file2.txt` to `newfile.txt`.
+
+### Screenshot
+
+![Alt text](screenshots/mv.png)
+
+## 3. Remove Files
+
+### Command
+
+```bash
+
+rm newfile.txt
+
+```
+
+### Description
+
+To delete a file I use the `rm` command. For instance I can delete `newfile.txt` with this command.
+
+### Screenshot
+
+![Alt text](screenshots/rm.png)
+
+## 4. Display File Contents
+
+### Command
+
+```bash
+
+cat sample.txt
+
+```
+
+### Description
+
+The `cat` command is useful for displaying the contents of a file like `sample.txt`.
+
+### Screenshot
+
+![Alt text](screenshots/cat.png)
+
+## 5. Display First 10 Lines
+
+### Command
+
+```bash
+
+head sample.txt
+
+```
+
+### Description
+
+I use `head` to see the 10 lines of a file such as `sample.txt`. This helps me quickly check the start of a file.
+
+### Screenshot
+
+![Alt text](screenshots/head.png)
+
+## 6. Display 10 Lines
+
+### Command
+
+```bash
+
+tail sample.txt
+
+```
+
+### Description
+
+The `tail` command shows me the last 10 lines of a file like `sample.txt`. This is helpful for checking the end of a file.
+
+### Screenshot
+
+![Alt text](screenshots/tail.png)
+
+## 7. Count File Statistics
+
+### Command
+
+```bash
+
+wc sample.txt
+
+```
+
+### Description
+
+With `wc` I can see the number of lines, words and characters in `sample.txt`. This gives me an overview of the files content.
+
+### Screenshot
+
+![Alt text](screenshots/wc.png)
+
+## 8. Search Text in a File
+
+### Command
+
+```bash
+
+grep "Linux" sample.txt
+
+```
+
+### Description
+
+The `grep` command helps me search for text like "Linux" in a file named `sample.txt`.
+
+### Screenshot
+
+![Alt text](screenshots/grep.png)
+
+## 9. Display File with Line Numbers
+
+### Command
+
+```bash
+
+nl sample.txt
+
+```
+
+### Description
+
+I use `nl` to display the contents of `sample.txt` with line numbers. This makes it easier to reference lines.
+
+### Screenshot
+
+![Alt text](screenshots/nl.png)
+
+## 10. Clear the Terminal Screen
+
+### Command
+
+```bash
+
+```
+
+### Description
+
+The `clear` command clears the terminal screen. This helps keep my workspace tidy.
+
+### Screenshot
+
+![Alt text](screenshots/clear.png)
+
+#
+
+In this part I learned how to:
+
+- Use `cp` to copy files
+
+- Use `mv` to move and rename files
+
+- files with `rm`
+
+- Display file contents using `cat`
+
+- View the start and end of files with `head` and `tail`
+
+- Count lines, words and characters in a file using `wc`
+
+- Search for text in a file with `grep`
+
+- Display line numbers, in a file using `nl`
+
+- Clear the terminal screen with `clear`
