@@ -148,3 +148,72 @@ cat /etc/os-release
     Operating system information
     Kernel information
 
+
+
+
+
+
+################################                   PART  - 2           #####################################
+
+
+
+# Part 2 – Linux Files and Directories
+
+## 1. Present Working Directory
+
+### Command
+```bash
+pwd
+```
+
+### Explanation
+Shows the current working directory.
+
+### Screenshot
+
+
+![Alt text](screenshots/pwd.png)
+
+
+
+
+## 2. List Files and Directories
+
+### Command
+```bash
+ls
+```
+
+### Explanation
+Lists the files and directories in the current location.
+
+### Screenshot
+
+![Alt text](screenshots/ls.png)
+
+
+
+
+## 3. List Files with Details
+
+### Command
+```bash
+ls -l
+```
+
+### Explanation
+Shows files and directories in detail, including:
+- Permissions
+- Owner
+- Group
+- File size
+- Date and time
+- File name
+
+### Screenshot
+
+![Alt text](screenshots/ls-l.png)
+
+
+
+
