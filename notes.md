@@ -639,7 +639,7 @@ This is the Linux kernel way of showing you the memory information.
 
 ---
 
-#conclusion
+# conclusion
 
 In this part I learned how to:
 
@@ -839,7 +839,7 @@ The `clear` command clears the terminal screen. This helps keep my workspace tid
 
 ![Alt text](screenshots/clear.png)
 
-#conclusion
+# conclusion
 
 In this part I learned how to:
 
@@ -1269,7 +1269,7 @@ The diff command shows me the differences between two files.
 
 ![Alt text](screenshots/diff.png)
 
-#conclusion
+# conclusion
 
 In this part, I learned how to:
 
@@ -1500,7 +1500,7 @@ To see a list of files sorted by their size you can use the ` -lhS` command and 
 
 ---
 
-#
+# conclusion
 
 In this part I learned how to do a lot of things with files like:
 
@@ -1718,7 +1718,7 @@ The `apt list --installed` command displays a list of all installed packages on 
 
 ![Alt text](screenshots/list-installed.png)
 
-#
+# conclusion
 
 In this part I learned how to manage packages using various `apt` commands.
 
