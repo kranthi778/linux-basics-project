@@ -1287,6 +1287,241 @@ In this part, I learned how to:
 
 
 
+`````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+
+
+# Part 7 – File Permissions & Ownership
+
+## 1. Display File Permissions in Numeric Format
+
+### Command
+
+```bash
+
+stat sample.txt
+
+```
+
+### Description
+
+The `stat` command shows you all the details about a file like what permissions it has, how big it's who owns it and when it was last changed.
+
+### Screenshot
+
+![Alt text](screenshots/stat.png)
+
+---
+
+## 2. Change File Permission to Read, Write and Execute for Owner
+
+### Command
+
+```bash
+
+chmod 700 sample.txt
+
+```
+
+### Description
+
+When you use the `chmod 700` command on a file like `sample.txt` you are giving the owner of the file the ability to read, write and execute it. Nobody else has any permissions.
+
+### Screenshot
+
+![Alt text](screenshots/chmod700.png)
+
+---
+
+## 3. Change File Permission to Read and Write for Owner Read for Others
+
+### Command
+
+```bash
+
+chmod 644 sample.txt
+
+```
+
+### Description
+
+The `chmod 644` command gives the owner of the file `sample.txt` the ability to read and write and it gives everyone the ability to read the file.
+
+### Screenshot
+
+![Alt text](screenshots/chmod644.png)
+
+---
+
+## 4. Change Group Ownership
+
+### Command
+
+```bash
+
+chgrp kali sample.txt
+
+```
+
+### Description
+
+If you want to change the group that owns a file you can use the `chgrp` command. You specify the new group, like `kali` and the file like `sample.txt`.
+
+### Screenshot
+
+![Alt text](screenshots/chgrp.png)
+
+---
+
+## 5. Display Access Control List (ACL)
+
+### Command
+
+```bash
+
+getfacl sample.txt
+
+```
+
+### Description
+
+To see the Access Control List or ACL for a file you use the `getfacl` command. It shows you all the permissions for the file, including who can read, write and execute it.
+
+### Screenshot
+
+![Alt text](screenshots/getfacl.png)
+
+---
+
+## 6. Change File Modification Time
+
+### Command
+
+```bash
+
+touch -m sample.txt
+
+```
+
+### Description
+
+If you want to update the time a file was last modified you can use the `touch -m` command. It changes the modification time to the current time.
+
+### Screenshot
+
+![Alt text](screenshots/touch-m.png)
+
+---
+
+## 7. Change File Access Time
+
+### Command
+
+```bash
+
+touch -a sample.txt
+
+```
+
+### Description
+
+The `touch -a` command updates the time a file was last accessed which's useful for keeping track of when files are being used.
+
+### Screenshot
+
+![Alt text](screenshots/touch-a.png)
+
+---
+
+## 8. Display File Timestamp
+
+### Command
+
+```bash
+
+--full-time sample.txt
+
+```
+
+### Description
+
+To see all the details about when a file was modified, accessed and changed you can use the `ls --full-time` command and it shows you the timestamps in a format that is easy to read.
+
+### Screenshot
+
+![Alt text](screenshots/full-time.png)
+
+---
+
+## 9. Display Files Sorted by Modification Time
+
+### Command
+
+```bash
+
+ls -lt
+
+```
+
+### Description
+
+If you want to see a list of files sorted by when they were modified you can use the `ls -lt` command and it shows you the most recently modified files first.
+
+### Screenshot
+
+![Alt text](screenshots/ls-lt.png)
+
+---
+
+## 10. Display Files Sorted by Size
+
+### Command
+
+```bash
+
+ls -lhS
+
+```
+
+### Description
+
+To see a list of files sorted by their size you can use the ` -lhS` command and it shows you the largest files first with the sizes displayed in a way that is easy to understand.
+
+### Screenshot
+
+![Alt text](screenshots/ls-lhs.png)
+
+---
+
+#
+
+In this part I learned how to do a lot of things with files like:
+
+- Display file information using the `stat` command.
+
+- Change file permissions using the `chmod 700` command.
+
+- Change file permissions using the `chmod 644` command.
+
+- Change group ownership using the `chgrp` command.
+
+- View Access Control Lists using the `getfacl` command.
+
+- Update the modification time using the `touch -m` command.
+
+- Update the access time using the `touch -a` command.
+
+- View detailed timestamps using the `ls --full-time` command.
+
+- Sort files by modification time using the `ls -lt` command.
+
+- Sort files, by size using the `ls -lhS` command.
+
+
+
+
+
+
 
 
 
