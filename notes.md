@@ -1744,3 +1744,235 @@ In this part I learned how to manage packages using various `apt` commands.
 
 
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+# Part 9 – Linux Networking Commands
+
+## 1. How to See All Network Interfaces
+
+### What to Do
+
+```bash
+
+ip addr
+
+```
+
+### What it Does
+
+This command shows you all the network interfaces on your Linux system. You will see the IP addresses and other network information for each interface.
+
+### Screenshot
+
+![Alt text](screenshots/ip-addr.png)
+
+---
+
+## 2. How to See the Routing Table
+
+### What to Do
+
+```bash
+
+ip route
+
+```
+
+### What it Does
+
+The systems routing table is shown with this command. It is like a map that tells your system where to send data.
+
+### Screenshot
+
+![Alt text](screenshots/ip-route.png)
+
+---
+
+## 3. How to See the ARP Neighbor Table
+
+### What to Do
+
+```bash
+
+ip neigh
+
+```
+
+### What it Does
+
+This command shows you the ARP neighbor table. The table has IP and MAC address mappings. This is useful for troubleshooting network issues.
+
+### Screenshot
+
+![Alt text](screenshots/ip-neigh.png)
+
+---
+
+## 4. How to Test if Your Network is Working
+
+### What to Do
+
+```bash
+
+ping -c 4 google.com
+
+```
+
+### What it Does
+
+This command sends four messages to google.com to see if your network connection is working. If you get a response your network is working.
+
+### Screenshot
+
+![Alt text](screenshots/ping.png)
+
+---
+
+## 5. How to See Your DNS Servers
+
+### What to Do
+
+```bash
+
+cat /etc/resolv.conf
+
+```
+
+### What it Does
+
+This command shows you the DNS servers that your system is using. DNS servers help your system find websites.
+
+### Screenshot
+
+![ text](screenshots/resolv-conf.png)
+
+---
+
+## 6. How to See What is Listening on Your Network
+
+### What to Do
+
+```bash
+
+ss -tuln
+
+```
+
+### What it Does
+
+This command shows you which TCP and UDP ports are listening on your system. This can help you see which services are running.
+
+### Screenshot
+
+![ text](screenshots/ss-tuln.png)
+
+---
+
+## 7. How to See Network Interface Statistics
+
+### What to Do
+
+```bash
+
+ip -s link
+
+```
+
+### What it Does
+
+This command shows you statistics for all network interfaces. You can see how many packets have been sent and received.
+
+### Screenshot
+
+![Alt text](screenshots/ip-s-link.png)
+
+---
+
+## 8. How to See the IP Addresses of Your System
+
+### What to Do
+
+```bash
+
+hostname -I
+
+```
+
+### What it Does
+
+This command shows you all the IP addresses assigned to your system.
+
+### Screenshot
+
+![Alt text](screenshots/hostname-I.png)
+
+---
+
+## 9. How to Trace the Route to a Website
+
+### What to Do
+
+```bash
+
+tracepath google.com
+
+```
+
+### What it Does
+
+This command shows you the path that data takes to reach a website. It is, like tracing the route you take to get to a store.
+
+### Screenshot
+
+![Alt text](screenshots/tracepath.png)
+
+---
+
+## 10. How to See the Status of Your Network Devices
+
+### What to Do
+
+```bash
+
+nmcli device status
+
+```
+
+### What it Does
+
+This command shows you the status of all network devices managed by NetworkManager. You can see which devices are connected and which are not.
+
+### Screenshot
+
+![Alt text](screenshots/nmcli-status.png)
+
+---
+
+#conclusion
+
+
+In this part I learned how to use Linux networking commands. These commands include:
+
+- Displaying network interfaces using `ip addr` command.
+
+- Viewing the routing table using `ip route` command.
+
+- Displaying the ARP neighbor table using `ip neigh` command.
+
+- Testing network connectivity using `ping` command.
+
+- Viewing DNS server configuration using `cat /etc/resolv.conf` command.
+
+- Displaying listening TCP and UDP ports using `ss -tuln` command.
+
+- Viewing network interface statistics using `ip -s link` command.
+
+- Displaying assigned IP addresses using `hostname -I` command.
+
+- Tracing the network path using `tracepath` command.
+
+- Checking network device status using ` device status` command. I can use these Linux networking commands to manage and troubleshoot my network.
+
+
