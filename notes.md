@@ -1950,7 +1950,7 @@ This command shows you the status of all network devices managed by NetworkManag
 
 ---
 
-#conclusion
+# conclusion
 
 
 In this part I learned how to use Linux networking commands. These commands include:
