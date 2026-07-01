@@ -1976,3 +1976,224 @@ In this part I learned how to use Linux networking commands. These commands incl
 - Checking network device status using ` device status` command. I can use these Linux networking commands to manage and troubleshoot my network.
 
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# Part 10 – System Monitoring & Logs
+
+## 1. Display System Uptime
+
+### Command
+
+```bash
+
+uptime
+
+```
+
+### Description
+
+The system uptime is very important. It tells you how long the system has been running. You can also see the number of users who are logged in. The system load averages are also shown.
+
+### Screenshot
+
+![Alt text](screenshots/uptime.png)
+
+---
+
+## 2. Display Disk Usage of Directories
+
+### Command
+
+```bash
+
+du -h --max-depth=1
+
+```
+
+### Description
+
+When you want to know how much space each directory is taking up you can use this command. It shows the size of each directory in the location. This is very useful for managing your disk space.
+
+### Screenshot
+
+![Alt text](screenshots/du-max-depth.png)
+
+---
+
+## 3. Display Mounted File Systems
+
+### Command
+
+```bash
+
+mount
+
+```
+
+### Description
+
+The mount command is used to display all the file systems that are mounted. You can also see the mount points for each file system. This is very useful for system administrators.
+
+### Screenshot
+
+![Alt text](screenshots/mount.png)
+
+---
+
+## 4. Display Block Devices
+
+### Command
+
+```bash
+
+lsblk
+
+```
+
+### Description
+
+If you want to know about the storage devices and partitions on your system you can use the lsblk command. It displays information about all the storage devices.
+
+### Screenshot
+
+![Alt text](screenshots/lsblk.png)
+
+---
+
+## 5. Display Memory Information
+
+### Command
+
+```bash
+
+cat /proc/meminfo
+
+```
+
+### Description
+
+The memory usage of the system is very important. You can use this command to display information about the systems memory usage. This includes the amount of memory the amount of free memory and more.
+
+### Screenshot
+
+![Alt text](screenshots/meminfo.png)
+
+---
+
+## 6. Display CPU Information
+
+### Command
+
+```bash
+
+cat /proc/cpuinfo
+
+```
+
+### Description
+
+The CPU is the brain of the system. You can use this command to display information about the systems CPU. This includes the type of CPU, the speed and more.
+
+### Screenshot
+
+![Alt text](screenshots/cpuinfo.png)
+
+---
+
+## 7. Display Kernel Messages
+
+### Command
+
+```bash
+
+dmesg | tail
+
+```
+
+### Description
+
+The kernel messages are very important for troubleshooting. You can use this command to display the recent kernel log messages. This can help you identify any problems with the system.
+
+### Screenshot
+
+![Alt text](screenshots/dmesg-tail.png)
+
+---
+
+## 8. Display Logged-in User History
+
+### Command
+
+```bash
+last
+```
+
+### Description
+
+The last command is used to display the login history of users on the system. You can see when each user logged in and out.
+
+### Screenshot
+
+![Alt text](screenshots/last.png)
+
+---
+
+## 9. Display Current Logged-in Sessions
+
+### Command
+
+```bash
+
+w
+
+```
+
+### Description
+
+If you want to know who is currently logged in to the system you can use the w command. It displays the logged-in users and their activities.
+
+### Screenshot
+
+![Alt text](screenshots/w.png)
+
+---
+
+## 10. Display Environment Variables
+
+### Command
+
+```bash
+
+printenv
+
+```
+
+### Description
+
+The environment variables are very important for the system. You can use this command to display all the environment variables that are currently set in the shell.
+
+### Screenshot
+
+![Alt text](screenshots/printenv.png)
+
+---
+
+# Conclusion
+
+In this part, I learned how to:
+
+- Check system uptime using `uptime`.
+- Display directory sizes using `du -h --max-depth=1`.
+- View mounted file systems using `mount`.
+- Display storage device information using `lsblk`.
+- View detailed memory information using `cat /proc/meminfo`.
+- Display CPU information using `cat /proc/cpuinfo`.
+- View recent kernel messages using `dmesg | tail`.
+- Display user login history using `last`.
+- View active user sessions using `w`.
+- Display environment variables using `printenv`.
+
+
+
+
